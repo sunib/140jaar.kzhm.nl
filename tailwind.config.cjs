@@ -7,8 +7,8 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: colors.blue,
-				secondary: colors.pink,
 				'kzhm': '#009a77',
+				'kzhm-2': '#2f4858',
 			},
 			fontFamily: {
 				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
