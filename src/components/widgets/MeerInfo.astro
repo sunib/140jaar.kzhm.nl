@@ -1,0 +1,11 @@
+---
+const { link, linkTekst } = Astro.props;
+---
+
+<p class="text-gray-600">	
+	Meer informatie: <a 
+		class="text-pink-500 underline focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" 
+		href={link}
+		target="_blank" 
+		rel="noopener">{linkTekst}</a>
+</p>

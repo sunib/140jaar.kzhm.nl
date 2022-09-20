@@ -3,6 +3,7 @@ import { SITE } from '~/config.mjs';
 import { getCanonical, getHomePermalink } from '~/utils/permalinks';
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import MeerInfo from '~/components/widgets/MeerInfo.astro';
 import { Image } from '@astrojs/image/components';
 
 const meta = {
@@ -87,11 +88,7 @@ const meta = {
 					<p class="text-gray-600 mb-8">
 						De Zandprinses gooit, strooit en schuift met zand op een lichtplaat en laat op betoverende wijze allerlei
 						tekeningen verschijnen. Voor dit concert maakt zij prachtige tekeningen van het beroemde verhaal van J.R.R. Tolkien.
-						<br />
-						<br />
-
-						Meer informatie: <a class="text-pink-500 underline" href="https://www.dezandprinses.nl/">dezandprinses.nl</a
-						>
+						<MeerInfo link="https://www.dezandprinses.nl/" linkTekst="dezandprinses.nl" />
 					</p>
 				</div>
 				<div class="w-full sm:w-1/2 p-6">
@@ -108,11 +105,7 @@ const meta = {
 						<p class="text-gray-600 mb-8">
 							Met ervaring als zanger, acteur, schrijver, vertaler en presentator is het lastig om in één woord te
 							zeggen wat Frans precies doet. In deze show vertelt hij het meeslepende verhaal van de Lord of the Rings.
-							<br />
-							<br />
-
-							Meer informatie: <a class="text-pink-500 underline" href="https://www.franslimburg.nl/">franslimburg.nl</a
-							>
+							<MeerInfo link="https://www.franslimburg.nl/" linkTekst="franslimburg.nl" />
 						</p>
 					</div>
 				</div>
@@ -123,16 +116,11 @@ const meta = {
 					<p class="text-gray-600 mb-8">
 						Met passie voor muziek en singing/songwriting is Laura de aangewezen persoon om onderdeel te zijn van deze
 						muzikale show.
-						<br />
-						<br />
-
-						Meer informatie: <a class="text-pink-500 underline" href="https://about.me/lauratenhoedt"
-							>about.me/lauratenhoedt</a
-						>
+						<MeerInfo link="https://about.me/lauratenhoedt" linkTekst="about.me/lauratenhoedt" />
 					</p>
 				</div>
 				<div class="w-full sm:w-1/2 p-6 flex justify-center">
-					<Image src={import('../assets/images/stuff//laura-ten-hoedt.jpg')} height=300 alt="descriptive text" />
+					<Image src={import('../assets/images/stuff//laura-ten-hoedt.jpg')} height="300" alt="descriptive text" />
 				</div>
 			</div>
 			<div class="flex flex-wrap flex-col-reverse sm:flex-row">
@@ -145,10 +133,7 @@ const meta = {
 						<p class="text-gray-600 mb-8">
 							Is van alle markten thuis: schrijver, zanger, composer, streamer, podcastmaker enz. In deze show zal hij
 							zijn ruige stemgeluid ten gehore brengen.
-							<br />
-							<br />
-
-							Meer informatie: <a class="text-pink-500 underline" href="https://tdwprog.com/">tdwprog.com</a>
+							<MeerInfo link="https://tdwprog.com/" linkTekst="tdwprog.com" />
 						</p>
 					</div>
 				</div>
@@ -167,12 +152,9 @@ const meta = {
 					<div class="w-full font-bold text-xl text-gray-800 px-6">Dirigent Bert Willemsen</div>
 					<p class="text-gray-800 text-base px-6 mb-5">
 						Bert Willemsen studeerde HaFaBra-directie en Trombone aan het conservatorium van de Hogeschool Alkmaar. Hij
-						dirrigeert diverse orkesten en is werkzaam als trombonist, tubaïst en (bas)gitarist. Sinds 2019 dirigeert
+						dirigeert diverse orkesten en is werkzaam als trombonist, tubaïst en (bas)gitarist. Sinds 2019 dirigeert
 						hij vol passie het KZHM.
-						<br />
-						<br />
-
-						Meer informatie: <a class="text-pink-500 underline" href="https://bertwillemsen.nl/">bertwillemsen.nl</a>
+						<MeerInfo link="https://bertwillemsen.nl/" linkTekst="bertwillemsen.nl" />
 					</p>
 					<Image src={import('../assets/images/stuff/bert.jpg')} alt="descriptive text" />
 				</div>
@@ -185,10 +167,7 @@ const meta = {
 						De Zeister Harmonie (KZHM) is een muziekvereniging met drie orkesten. Samen muziek maken en gezelligheid staan
 						voorop. Het grootorkest bestaat normaal uit ongeveer 35 leden. Voor deze spetterende show worden we
 						ondersteund door een fantastisch projectorkest.
-						<br />
-						<br />
-
-						Meer informatie: <a class="text-pink-500 underline" href="https://www.kzhm.nl">kzhm.nl</a>
+						<MeerInfo link="https://www.kzhm.nl" linkTekst="kzhm.nl" />
 					</p>
 					<Image src={import('../assets/images/stuff/orkest2.jpg')} alt="descriptive text" />
 				</div>
@@ -246,7 +225,6 @@ const meta = {
 			</div>
 		</div>
 	</section>
-	<!-- Change the colour #f8fafc to match the previous section colour -->
 	<svg
 		viewBox="0 0 1439 147"
 		version="1.1"
