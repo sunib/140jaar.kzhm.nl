@@ -1,14 +1,13 @@
 export const SITE = {
-	name: 'Lustrumconcert KZHM',
+	name: 'Zeister harmonie lustrumconcert',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://140jaar.kzhm.nl',
 	basePathname: '/',
 
 	title: 'Zeister harmonie lustrumconcert',
 	description: 'Muziekshow met zandprinses, Lord of the Rings en nog veel meer',
-
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleAnalyticsId: "G-KDQGVSQVZY",
+	googleSiteVerificationId: 'y7I5qtd0gBrwYeeSpHdZ2HT50ytCfqqGzsGdQAf5msE'
 };
 
 export const BLOG = {
