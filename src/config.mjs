@@ -1,10 +1,10 @@
 export const SITE = {
-	name: 'Zeister harmonie lustrumconcert',
+	name: 'Zeister Harmonie Lustrumconcert',
 
 	origin: 'https://140jaar.kzhm.nl',
 	basePathname: '/',
 
-	title: 'Zeister harmonie lustrumconcert',
+	title: 'Zeister Harmonie Lustrumconcert',
 	description: 'Muziekshow met zandprinses, Lord of the Rings en nog veel meer',
 	googleAnalyticsId: "G-KDQGVSQVZY",
 	googleSiteVerificationId: 'y7I5qtd0gBrwYeeSpHdZ2HT50ytCfqqGzsGdQAf5msE'
