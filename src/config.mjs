@@ -1,5 +1,5 @@
 export const SITE = {
-	name: 'Zeister Harmonie Lustrumconcert',
+	name: 'Zeister harmonie Lustrumconcert',
 
 	origin: 'https://140jaar.kzhm.nl',
 	basePathname: '/',
