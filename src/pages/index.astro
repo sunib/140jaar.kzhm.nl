@@ -87,7 +87,8 @@ const meta = {
 					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Zandprinses Rosa van der Vijver</h3>
 					<div class="text-gray-600 mb-8">
 						De Zandprinses gooit, strooit en schuift met zand op een lichtplaat en laat op betoverende wijze allerlei
-						tekeningen verschijnen. Voor dit concert maakt zij prachtige tekeningen van het beroemde verhaal van J.R.R. Tolkien.
+						tekeningen verschijnen. Voor dit concert maakt zij prachtige tekeningen van het beroemde verhaal van J.R.R.
+						Tolkien.
 						<MeerInfo link="https://www.dezandprinses.nl/" linkTekst="dezandprinses.nl" />
 					</div>
 				</div>
@@ -102,8 +103,8 @@ const meta = {
 				<div class="w-full sm:w-1/2 p-6 mt-6">
 					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Verteller Frans Limburg</h3>
 					<div class="text-gray-600 mb-8">
-						Met ervaring als zanger, acteur, schrijver, vertaler en presentator is het lastig om in één woord te
-						zeggen wat Frans precies doet. In deze show vertelt hij het meeslepende verhaal van de Lord of the Rings.
+						Met ervaring als zanger, acteur, schrijver, vertaler en presentator is het lastig om in één woord te zeggen
+						wat Frans precies doet. In deze show vertelt hij het meeslepende verhaal van de Lord of the Rings.
 						<MeerInfo link="https://www.franslimburg.nl/" linkTekst="franslimburg.nl" />
 					</div>
 				</div>
@@ -148,8 +149,8 @@ const meta = {
 					<div class="w-full font-bold text-xl text-gray-800 px-6">Dirigent Bert Willemsen</div>
 					<div class="text-gray-800 text-base px-6 mb-5">
 						Bert Willemsen studeerde HaFaBra-directie en Trombone aan het conservatorium van de Hogeschool Alkmaar. Hij
-						dirigeert diverse orkesten en is werkzaam als trombonist, tubaïst en (bas)gitarist. Sinds 2019 dirigeert
-						hij vol passie het KZHM.
+						dirigeert diverse orkesten en is werkzaam als trombonist, tubaïst en (bas)gitarist. Sinds 2019 dirigeert hij
+						vol passie het KZHM.
 						<MeerInfo link="https://bertwillemsen.nl/" linkTekst="bertwillemsen.nl" />
 					</div>
 					<Image src={import('../assets/images/stuff/bert.jpg')} alt="descriptive text" />
@@ -160,8 +161,8 @@ const meta = {
 					<p class="w-full text-gray-600 text-xs md:text-sm px-6">70 muzikale sterren</p>
 					<div class="w-full font-bold text-xl text-gray-800 px-6">(Project)Orkest</div>
 					<div class="text-gray-800 text-base px-6 mb-5">
-						De Zeister harmonie (KZHM) is een muziekvereniging met drie orkesten. Samen muziek maken en gezelligheid staan
-						voorop. Het grootorkest bestaat normaal uit ongeveer 35 leden. Voor deze spetterende show worden we
+						De Zeister harmonie (KZHM) is een muziekvereniging met drie orkesten. Samen muziek maken en gezelligheid
+						staan voorop. Het grootorkest bestaat normaal uit ongeveer 35 leden. Voor deze spetterende show worden we
 						ondersteund door een fantastisch projectorkest.
 						<MeerInfo link="https://www.kzhm.nl" linkTekst="kzhm.nl" />
 					</div>
@@ -173,8 +174,8 @@ const meta = {
 					<p class="w-full text-gray-600 text-xs md:text-sm px-6">Voorprogramma</p>
 					<div class="w-full font-bold text-xl text-gray-800 px-6">Leerlingenorkest</div>
 					<p class="text-gray-800 text-base px-6 mb-5">
-						Zodra je je instrument ongeveer een jaar bespeelt kun je meespelen met ons Leerlingenorkest. Zij verzorgen het
-						voorprogramma. Voor leerlingen die net kunnen spelen is er het Opstaporkest.
+						Zodra je je instrument ongeveer een jaar bespeelt kun je meespelen met ons Leerlingenorkest. Zij verzorgen
+						het voorprogramma. Voor leerlingen die net kunnen spelen is er het Opstaporkest.
 					</p>
 					<Image src={import('../assets/images/stuff/llo.jpg')} alt="descriptive text" />
 				</div>
@@ -203,7 +204,9 @@ const meta = {
 						<div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
 						<ul class="w-full text-center text-base font-bold">
 							<li class="border-b py-4">19:15 <br /> Leerlingenorkest</li>
-							<li class="border-b py-4">20:00 <br /> Symfonie no. 1 "The Lord of the Rings" van Johan de Meij <br /> (met verteller en de zandprinses!)</li>
+							<li class="border-b py-4">
+								20:00 <br /> Symfonie no. 1 "The Lord of the Rings" van Johan de Meij <br /> (met verteller en de zandprinses!)
+							</li>
 							<li class="border-b py-4">21:00 <br /> Pauze</li>
 							<li class="border-b py-4">21:15 <br /> Non-stop spetterende muziekshow <br />(met zangers!)</li>
 						</ul>
@@ -215,6 +218,7 @@ const meta = {
 						<ul class="w-full text-center text-sm">
 							<li class="border-b py-4">€25,00</li>
 							<li class="border-b py-4">€12,50 (CJP/STUDENT/65+)</li>
+							<li class="border-b py-4">Excl. €3,25 reserveringskosten Figi per bestelling</li>
 						</ul>
 					</div>
 				</div>
@@ -271,7 +275,7 @@ const meta = {
 			scrollpos = window.scrollY;
 			if (scrollpos > 10) {
 				logowit.classList.add('hidden');
-        logo.classList.remove('hidden');
+				logo.classList.remove('hidden');
 				header.classList.add('bg-gray-100');
 				//Use to switch toggleColour colours
 				for (var i = 0; i < toToggle.length; i++) {
@@ -281,7 +285,7 @@ const meta = {
 				header.classList.add('shadow');
 			} else {
 				logo.classList.add('hidden');
-        logowit.classList.remove('hidden');
+				logowit.classList.remove('hidden');
 				header.classList.remove('bg-gray-100');
 				//Use to switch toggleColour colours
 				for (var i = 0; i < toToggle.length; i++) {
