@@ -1,8 +1,8 @@
 export const SITE = {
 	name: 'Zeister harmonie Lustrumconcert',
 
-	origin: 'https://140jaar.kzhm.nl',
-	basePathname: '/',
+	origin: 'https://sunib.github.io',
+	basePathname: '/140jaar.kzhm.nl',
 
 	title: 'Zeister Harmonie Lustrumconcert',
 	description: 'Muziekshow met zandprinses, Lord of the Rings en nog veel meer',
